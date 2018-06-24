@@ -5,6 +5,11 @@ codeunit 50100 MyCodeunit
         Message(HelloWorldTxt);
     end;
 
+    local procedure MyProcedure()
+    begin
+
+    end;
+
     var
         HelloWorldTxt: Label 'Hello World!', Comment = 'message text';
         DummyLabel: Label 'dummy label to check XLIFF file';
